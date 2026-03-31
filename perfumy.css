@@ -1,0 +1,75 @@
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+ol,h1,li{
+    display: inline;
+
+}
+ol{
+    margin-left:60%;
+    
+}
+li{
+    color: white;
+}
+li:hover{
+    color:mediumblue;
+    cursor: pointer;
+}
+input{
+    width: 60%;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.box{
+   border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+    margin: 40px;
+    background-color:burlywood;
+    min-height: 40px;
+    padding: 10px;
+    
+}
+.box:hover{
+    box-shadow: 5px 10px blue;
+    cursor: pointer;
+     transform: translate3d(50px, 100px, 0);
+}
+h2{
+    text-align: center;
+}
+.about{
+    margin: 20px;
+    padding: 10px;
+
+    font-size: 25px;
+}
+.contact{
+    background-color: black;
+    color: white;
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 30px;;
+    border-radius: 100px;
+    border-color: blue;
+
+   
+}
+.contact :hover{
+    color:blue;
+    cursor: pointer;
+
+
+}
+.social-icons svg{
+    
+    background-color: white;
+}
+
+
